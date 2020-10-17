@@ -31,5 +31,5 @@ dependencies {
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$androidXJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
-
+    implementation project(':pulsatingripple')
 }
