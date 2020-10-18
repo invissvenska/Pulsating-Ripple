@@ -1,10 +1,12 @@
 # Pulsating Ripple
-[![](https://jitpack.io/v/invissvenska/Pulsating-Ripple.svg)](https://jitpack.io/#invissvenska/Pulsating-Ripple) 
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
+[![](https://jitpack.io/v/invissvenska/Pulsating-Ripple.svg)](https://jitpack.io/#invissvenska/Pulsating-Ripple) 
 <a href="https://github.com/invissvenska/Pulsating-Ripple/actions"><img alt="Build Status" src="https://github.com/invissvenska/Pulsating-Ripple/workflows/Android-Library%20CI/badge.svg"/></a> 
 <span class="badge-buymeacoffee"><a href="https://www.paypal.com/paypalme/svenvandentweel/3" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span>  
 
 ## Screenshots
+
+**Please click the image below to enlarge.**
 
 Stroke Ripple                             | Fill Ripple
 :----------------------------------------:|:---------------------------------------:
