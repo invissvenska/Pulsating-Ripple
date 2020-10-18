@@ -71,4 +71,6 @@ pulsatingLayout.stopAnimation();
 
 ## Screenshots
 
-![Stroke Ripple](media/ripple-stroke.gif) ![Fill Ripple](media/ripple-fill.gif)
+Stroke Ripple                             | Fill Ripple
+:----------------------------------------:|:---------------------------------------:
+![Stroke Ripple](media/ripple-stroke.gif) | ![Fill Ripple](media/ripple-fill.gif)
