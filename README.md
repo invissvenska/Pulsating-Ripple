@@ -71,6 +71,4 @@ pulsatingLayout.stopAnimation();
 
 ## Screenshots
 
-**Please click the image below to enlarge.**
-
-<img src="https://raw.githubusercontent.com/invissvenska/Pulsating-Ripple/main/media/collage.png">
+![Stroke Ripple](media/ripple-stroke.gif) ![Fill Ripple](media/ripple-fill.gif)
