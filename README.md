@@ -23,8 +23,8 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 
 ```gradle
 dependencies {
-	...
-	implementation 'com.github.invissvenska:Pulsating-Ripple:VERSION'
+    ...
+    implementation 'com.github.invissvenska:Pulsating-Ripple:VERSION'
 }
 ```
 
@@ -61,12 +61,12 @@ Add the `PulsatingLayout` to your layout and insert a View in it:
 Start animation:
 
 ``` java
-pulsatingLayout.stopAnimation();
+pulsatingLayout.startAnimation();
 ```
 Stop animation:
 
 ``` java             
-pulsatingLayout.startAnimation();
+pulsatingLayout.stopAnimation();
 ```
 
 ## Screenshots
