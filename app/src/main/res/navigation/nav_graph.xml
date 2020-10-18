@@ -3,26 +3,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/OverviewFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="nl.invissvenska.pulsatingripple.FirstFragment"
+        android:id="@+id/OverviewFragment"
+        android:name="nl.invissvenska.pulsatingripple.OverviewFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_overview">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_OverviewFragment_to_FillFragment"
+            app:destination="@id/FillFragment" />
+        <action
+            android:id="@+id/action_OverviewFragment_to_StrokeFragment"
+            app:destination="@id/StrokeFragment" />
+        <action
+            android:id="@+id/action_OverviewFragment_to_CustomFragment"
+            app:destination="@id/CustomFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/SecondFragment"
-        android:name="nl.invissvenska.pulsatingripple.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
 
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+    <fragment
+        android:id="@+id/FillFragment"
+        android:name="nl.invissvenska.pulsatingripple.FillFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_fill">
+    </fragment>
+
+    <fragment
+        android:id="@+id/StrokeFragment"
+        android:name="nl.invissvenska.pulsatingripple.StrokeFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_stroke">
+    </fragment>
+
+    <fragment
+        android:id="@+id/CustomFragment"
+        android:name="nl.invissvenska.pulsatingripple.CustomFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_custom">
     </fragment>
 </navigation>
