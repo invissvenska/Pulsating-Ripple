@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/OverviewFragment"
-        android:name="nl.invissvenska.pulsatingripple.OverviewFragment"
+        android:name="nl.invissvenska.pulsatingripple.sample.OverviewFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_overview">
 
@@ -24,21 +24,21 @@
 
     <fragment
         android:id="@+id/FillFragment"
-        android:name="nl.invissvenska.pulsatingripple.FillFragment"
+        android:name="nl.invissvenska.pulsatingripple.sample.FillFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_fill">
     </fragment>
 
     <fragment
         android:id="@+id/StrokeFragment"
-        android:name="nl.invissvenska.pulsatingripple.StrokeFragment"
+        android:name="nl.invissvenska.pulsatingripple.sample.StrokeFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_stroke">
     </fragment>
 
     <fragment
         android:id="@+id/CustomFragment"
-        android:name="nl.invissvenska.pulsatingripple.CustomFragment"
+        android:name="nl.invissvenska.pulsatingripple.sample.CustomFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_custom">
     </fragment>

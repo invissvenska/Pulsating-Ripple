@@ -31,16 +31,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:pr_duration="3000"
-        app:pr_rippleAmount="6"
+        app:pr_rippleAmount="10"
         app:pr_radius="64dp"
-        app:pr_scale="6">
+        app:pr_scale="3">
 
         <ImageView
             android:id="@+id/centerImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_launcher_foreground"/>
+            android:src="@drawable/atom_icon"/>
 
     </nl.invissvenska.pulsatingripple.PulsatingLayout>
 

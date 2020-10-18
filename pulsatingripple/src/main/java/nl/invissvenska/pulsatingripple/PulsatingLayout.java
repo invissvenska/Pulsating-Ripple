@@ -84,6 +84,7 @@ public class PulsatingLayout extends RelativeLayout {
         paint.setAntiAlias(true);
         if (rippleType == DEFAULT_FILL_TYPE) {
             paint.setStyle(Paint.Style.FILL);
+            paint.setStrokeWidth(0);
         } else {
             paint.setStyle(Paint.Style.STROKE);
             paint.setStrokeWidth(rippleStrokeWidth);
@@ -110,7 +111,6 @@ public class PulsatingLayout extends RelativeLayout {
             animatorList.add(animateScaleY(rippleView, scale, delay, durationTime, i));
             animatorList.add(animateAlpha(rippleView, delay, durationTime, i));
         }
-
         animatorSet.playTogether(animatorList);
     }
 
@@ -155,7 +155,7 @@ public class PulsatingLayout extends RelativeLayout {
         }
     }
 
-    public void startRippleAnimation() {
+    public void startAnimation() {
         if (!isRippleAnimationRunning()) {
             for (RippleView rippleView : rippleViewList) {
                 rippleView.setVisibility(VISIBLE);
@@ -165,8 +165,11 @@ public class PulsatingLayout extends RelativeLayout {
         }
     }
 
-    public void stopRippleAnimation() {
+    public void stopAnimation() {
         if (isRippleAnimationRunning()) {
+            for (RippleView rippleView : rippleViewList) {
+                rippleView.setVisibility(INVISIBLE);
+            }
             animatorSet.end();
             animationRunning = false;
         }

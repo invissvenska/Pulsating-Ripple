@@ -1,4 +1,4 @@
-package nl.invissvenska.pulsatingripple;
+package nl.invissvenska.pulsatingripple.sample;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+
+import nl.invissvenska.pulsatingripple.PulsatingLayout;
 
 public class StrokeFragment extends Fragment {
 
@@ -19,6 +21,6 @@ public class StrokeFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         PulsatingLayout pl = view.findViewById(R.id.ripple);
-        pl.startRippleAnimation();
+        pl.startAnimation();
     }
 }

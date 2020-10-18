@@ -23,7 +23,7 @@ allprojects {
 ext {
     compileSdkVersion = 30
     buildToolsVersion = '30.0.2'
-    minSdkVersion = 24
+    minSdkVersion = 16
     targetSdkVersion = compileSdkVersion
 
     androidXVersion = '1.2.0'
@@ -31,17 +31,9 @@ ext {
     androidXConstraintLayoutVersion = '2.0.2'
     androidXNavigationVersion = '2.3.1'
 
-
-
-
     junitVersion = '4.13'
     androidXJunitVersion = '1.1.2'
     espressoVersion = '3.3.0'
-
-
-
-
-
 
     versionCode = 1
     versionName = '1.0.0'

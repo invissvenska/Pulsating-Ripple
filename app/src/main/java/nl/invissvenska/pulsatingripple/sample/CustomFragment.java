@@ -1,4 +1,4 @@
-package nl.invissvenska.pulsatingripple;
+package nl.invissvenska.pulsatingripple.sample;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+
+import nl.invissvenska.pulsatingripple.PulsatingLayout;
 
 public class CustomFragment extends Fragment {
 
@@ -25,14 +27,14 @@ public class CustomFragment extends Fragment {
         view.findViewById(R.id.btnStart).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pl.startRippleAnimation();
+                pl.startAnimation();
             }
         });
 
         view.findViewById(R.id.btnStop).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pl.stopRippleAnimation();
+                pl.stopAnimation();
             }
         });
     }

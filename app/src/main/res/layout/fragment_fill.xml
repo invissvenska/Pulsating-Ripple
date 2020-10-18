@@ -12,10 +12,10 @@
 
         <ImageView
             android:id="@+id/centerImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_launcher_foreground" />
+            android:src="@drawable/atom_icon" />
 
     </nl.invissvenska.pulsatingripple.PulsatingLayout>
 

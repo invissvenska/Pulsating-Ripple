@@ -1,4 +1,4 @@
-package nl.invissvenska.pulsatingripple;
+package nl.invissvenska.pulsatingripple.sample;
 
 import org.junit.Test;
 
