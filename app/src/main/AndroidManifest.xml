@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nl.invissvenska.pulsatingripple">
+    package="nl.invissvenska.pulsatingripple.sample">
 
     <application
         android:allowBackup="true"

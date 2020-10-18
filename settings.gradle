@@ -1,2 +1,3 @@
+include ':pulsatingripple'
 include ':app'
 rootProject.name = "Pulsating Ripple"
