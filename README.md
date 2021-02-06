@@ -45,13 +45,6 @@ Add the `PulsatingLayout` to your layout and insert a View in it:
     android:id="@+id/ripple"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:pr_duration="3000" // Time in ms for one animation cycle. Optional, default is 3000
-    app:pr_rippleAmount="10" // Amount of ripples in the animation cycle. Optional, default is 6
-    app:pr_radius="64dp" // Start radius of the ripple. Optional, default is 24dp
-    app:pr_scale="3" // Scale increment of the radius. Optional, default is 6
-    app:pr_color="#000000" // optional
-    app:pr_type="strokeRipple" // Stroke (strokeRipple) or filled (fillRipple) ripples, Optional, default is 'fillRipple'
-    app:pr_strokeWidth="4dp" // Width of stroke when using 'type=stroke' otherwise field is ignored. Optional, default is 2dp
 >
 
     <ImageView
@@ -76,3 +69,14 @@ Stop animation:
 ``` java             
 pulsatingLayout.stopAnimation();
 ```
+
+## PulsatingLayout Attributes
+Attributes | Type | Default | Mandatory | Description
+--- | --- | --- | --- | ---
+pr_duration | Integer | 3000 | No | Time in milliseconds for one animation cycle.
+pr_rippleAmount | Integer | 6 | No | Amount of ripples in the animation cycle.
+pr_radius | Dimension | 24dp | No | Start radius of the ripple.
+pr_scale | Float | 6 | No | Scale increment of the ripple.
+pr_color | Color | #039191 | No | Color of the ripple.
+pr_type | Integer (strokeRipple, fillRipple) | fillRipple | No | Makes the ripples stroke or filled.
+pr_strokeWidth | Dimension | 2dp if (pr_type == strokeRipple) | No | Width of the stroke, will only be used when pr_type == strokeRipple.
