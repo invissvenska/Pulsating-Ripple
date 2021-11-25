@@ -54,12 +54,12 @@ jobs:
         with:
           name: unit_test_report
           path: app/build/reports/tests/testDebugUnitTest/
-          
+
       - name: Publish Unit Test Results
         uses: EnricoMi/publish-unit-test-result-action@v1
         if: always()
         with:
-          files: app/build/reports/tests/testDebugUnitTest/*.xml
+          files: app/build/test-results/testDebugUnitTest/*.xml
 
   build:
     name: Create APK
