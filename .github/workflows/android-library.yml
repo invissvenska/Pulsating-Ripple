@@ -25,6 +25,12 @@ jobs:
       - name: Lint
         run: ./gradlew lintDebug
 
+      - name: Upload html test report
+        uses: actions/upload-artifact@v2
+        with:
+          name: lint.html
+          path: app/build/reports/lint-results-debug.html
+
   tests:
     name: Tests check
     runs-on: ubuntu-latest
@@ -42,6 +48,12 @@ jobs:
 
       - name: Test
         run: ./gradlew test
+
+      - name: Upload test report
+        uses: actions/upload-artifact@v2
+        with:
+          name: unit_test_report
+          path: app/build/reports/tests/testDebugUnitTest/
 
   build:
     name: Create APK
